@@ -4,7 +4,7 @@ AC_DEFUN([SET_AM_CFLAGS],
   AM_CFLAGS=${AM_CFLAGS}" -std=gnu11"
 
   # Basic set of errors
-  AM_CFLAGS=${AM_CFLAGS}" -Wall -Wextra -Werror "
+  # AM_CFLAGS=${AM_CFLAGS}" -Wall -Wextra -Werror "
   
   #TODO: undisabled
   #AM_CFLAGS=${AM_CFLAGS}" -Wpedantic -Wcast-qual "
